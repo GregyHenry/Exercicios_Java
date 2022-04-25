@@ -50,7 +50,7 @@ public class Main {
 		*/
 		
 		//Exercio emprestimo
-		double valor = 1400;
+		double valor = 1500;
 		int parcela = 5;
 		System.out.println("Exercicio Emprestimo");
 		Emprestimo.calcular(valor, Emprestimo.getDuasParcelas());

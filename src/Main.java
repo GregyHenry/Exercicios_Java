@@ -49,13 +49,20 @@ public class Main {
 		Mensagem.obterMensagem(hora);
 		*/
 		
-		//Exercio emprestimo
+		/*Exercio emprestimo
 		double valor = 1700;
 		int parcela = 5;
 		System.out.println("Exercicio Emprestimo");
 		Emprestimo.calcular(valor, Emprestimo.getDuasParcelas());
 		Emprestimo.calcular(valor, Emprestimo.getTresParcelas());
-		Emprestimo.calcular(valor, parcela);
+		Emprestimo.calcular(valor, parcela);*/
+		System.out.println("Exercio Quadrilatero");
+		
+		double lado = 3;
+		
+		Quadrilatero.area(lado);
+		Quadrilatero.area(5, 5);
+		Quadrilatero.area(7, 8, 9);
 		
 	}
 }

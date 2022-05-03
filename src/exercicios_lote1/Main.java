@@ -1,3 +1,5 @@
+package exercicios_lote1;
+//import java.util.Scanner;
 
 public class Main {
 
@@ -54,7 +56,7 @@ public class Main {
 		System.out.println("Exercicio Emprestimo");
 		Emprestimo.calcular(valor, Emprestimo.getDuasParcelas());
 		Emprestimo.calcular(valor, Emprestimo.getTresParcelas());
-		Emprestimo.calcular(valor, parcela);
+		Emprestimo.calcular(valor, parcela);*/
 		System.out.println("Exercio Quadrilatero");
 		
 		double lado = 3;
@@ -62,6 +64,6 @@ public class Main {
 		Quadrilatero.area(lado);
 		Quadrilatero.area(5, 5);
 		Quadrilatero.area(7, 8, 9);
-		*/
+		
 	}
 }

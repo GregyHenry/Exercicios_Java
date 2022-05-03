@@ -1,3 +1,4 @@
+package exercicios_lote1;
 
 public class OperacoesMath {
 

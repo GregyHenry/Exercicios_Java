@@ -1,8 +1,8 @@
-package aulasPOO;
+package aulasPoo;
 
 public class RodarAplicacao {
 	public static void main(String[] args) {
-		Carro carro = new Carro();
+		Carro2 carro = new Carro2();
 
 		carro.setCor("Azul");
 		carro.setModelo("BMW");
@@ -14,7 +14,7 @@ public class RodarAplicacao {
 
 		System.out.println(carro.totalValorTanque(6.39));
 
-		Carro carro2 = new Carro("Cinza", "Mercedes", 66);
+		Carro2 carro2 = new Carro2("Cinza", "Mercedes", 66);
 
 		System.out.println(carro2.getCor());
 		System.out.println(carro2.getModelo());

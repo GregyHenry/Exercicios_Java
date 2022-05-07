@@ -1,14 +1,14 @@
-package aulasPOO;
+package aulasPoo;
 
-public class Carro {
+public class Carro2 {
 	String cor, modelo;
 	float capacidadeTanque;
 
-	Carro() {
+	Carro2() {
 
 	}
 
-	Carro(String cor, String modelo, float capacidadeTanque) {
+	Carro2(String cor, String modelo, float capacidadeTanque) {
 		this.cor = cor;
 		this.modelo = modelo;
 		this.capacidadeTanque = capacidadeTanque;
